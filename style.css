@@ -1,0 +1,148 @@
+body {
+    padding:0px;
+    margin:0;
+    background: linear-gradient(to top left, powderblue, pink);
+    font-size:14px;
+
+}
+#basic {
+    width:960px;
+    min-height:950px;
+    margin:0 auto;
+    padding:20px 20px 20px 20px;
+    background:#fff;
+}
+#header{
+width: 100%;
+ background: #fff no-repeat 5% 50%;
+ height: 70px;
+
+}
+
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.menu-main {
+  list-style: none;
+  margin: 40px 0 5px;
+  padding: 25px 0 5px;
+  text-align: center;
+  background: white;
+}
+.menu-main li {display: inline-block;}
+.menu-main li:after {
+  content: "|";
+  color: #606060;
+  display: inline-block;
+  vertical-align:top;
+}
+.menu-main li:last-child:after {content: none;}
+.menu-main a {
+  text-decoration: none;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  letter-spacing: 2px;
+  position: relative;
+  padding-bottom: 20px;
+  margin: 0 34px 0 30px;
+  font-size: 17px;
+  text-transform: uppercase;
+  display: inline-block;
+  transition: color .2s;
+}
+.menu-main a, .menu-main a:visited {color: #9d999d;}
+.menu-main a.current, .menu-main a:hover{color: #000000;}
+.menu-main a:before,
+.menu-main a:after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  top: auto;
+  right: 50%;
+  bottom: -5px;
+  left: 50%;
+  background: #FFC0CB;
+  transition: .8s;
+}
+.menu-main a:hover:before, .menu-main .current:before {left: 0;}
+.menu-main a:hover:after, .menu-main .current:after {right: 0;}
+@media (max-width: 550px) {
+.menu-main {padding-top: 0;}
+.menu-main li {display: block;}
+.menu-main li:after {content: none;}
+.menu-main a {
+  padding: 25px 0 20px;
+  margin: 0 30px;
+}
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+
+
+}
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+#content {
+    margin-top: 250px;
+    text-align: center;
+
+}
+
+.zagalovok{
+
+    font-size: 50px;
+
+}
+
+
+
+
+
+.text {
+    font-size:20px;
+    margin-bottom: 10px;
+}
+
+.photo {
+    width:700px;
+    height:400px;
+}
+
+.photo1 {
+    width:700px;
+    height:400px;
+    margin-bottom:20px;
+}
+
+.podzagolovok {
+ font-size:30px;
+}
+
+.ios {
+    width: 367px;
+    height: 652px;
+}
+
+.android {
+  width: 300px;
+  height: 533px;
+}
+
+.android1 {
+  width:300px;
+  height:533px;
+  margin-bottom:20px;
+}
+
+
+.windows {
+  width: 680px;
+  height: 453px;
+}
+
+
+.video {
+  height: 400px;
+  width: 600px;
+  margin-bottom: : 250px;
+
+}
